@@ -1,0 +1,68 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (if using)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Spring Boot specific
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Test reports
+surefire-reports/
+test-output/
+
+# Node/npm (in case of front-end integration)
+node_modules/
+dist/
+
+# Docker
+*.pid
+docker-compose.override.yml
